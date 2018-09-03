@@ -1,6 +1,7 @@
 {% extends 'promotion_taiwan/base.html' %}
-
 {% block content %}
+{% load static %}
+
 
 <!-- メニュー -->
 <nav class="navbar navbar-light bg-white navbar-expand-md mt-5">
@@ -20,13 +21,43 @@
   </ul>
 </nav>
 
+<!-- タイトル・ドリンク等に使われている画像の横700,縦467 -->
 <!-- タイトル -->
-<h1 class="pt-5 text-center">圧倒的素敵国家</h1>
-<h1 class="pt-3 text-center">台湾の魅力</h1>
-<!-- <h1 class="pt-5 m-auto" style="width: 200px;">台湾の魅力</h1> -->
+<h1 class="pt-5 text-center">台湾の魅力</h1>
+<img class="pt-3 mx-auto d-block" src="{% static "promotion_taiwan/image/taiwan.jpeg" %}">
+<div class="pt-5 text-center">
+  <p>よく台湾は「親日国家で日本人が旅行しやすい」、「九份が千と千尋みたい〜！！綺麗！！」<br>などと言われていますが、、、台湾の魅力はそんなところではありません！<br>台湾人の親を持ち、台湾に一年半住んでいたボクがそんな素敵国家、台湾の魅力をお伝えします</p>
+</div>
+
 
 <!-- ドリンク -->
+<h3 class="pt-5 text-center">台湾 ドリンク</h3>
+<img class="pt-3 mx-auto d-block" src="{% static "promotion_taiwan/image/tapioca.png" %}">
+<div class="pt-5 text-center">
+  <p>知っている人は知っている、タピオカミルクティー発祥の地、、、それは台湾！<br>最近では日本でも見かけることの多くなってきたタピオカドリンクですが<br>日本で飲むとなると、安くて400円、、、いや高い！！！！（笑）<br>台湾であればポピュラーなもので、約150円で購入することができます<br>なおかつ、味が豊富で、タピオカの弾力感もハンパない！そして量もたっぷり！<br>味よし、価格よし、量よしの３要素ばっちし。
+  </p>
+</div>
 
+<!--　フード -->
+<h3 class="pt-5 text-center">台湾 フード</h3>
+<img class="pt-3 mx-auto d-block" src="{% static "promotion_taiwan/image/taiwan_food.jpg" %}">
+<div class="pt-5 text-center">
+  <p>肉類と海鮮が中心で、洗練された味というよりも家庭的な味のものがメイン！<br>中華というと、ピリっと唐辛子を使った、辛いものが多いかと思いきや<br>日本人がイメージするほど、台湾の料理はそこまで辛いものは多くありません。<br>日本人の舌でもとっても親しみをがもて、楽しめる料理の数々が台湾にはたくさん存在します。
+  </p>
+</div>
 
+<h3 class="pt-5 text-center">台湾 スポット</h3>
+<img class="pt-3 mx-auto d-block" src="{% static "promotion_taiwan/image/taiwan_spot.jpg" %}">
+<div class="pt-5 text-center">
+  <p>台湾にはこんなにも素敵な海が存在するのです。<br>こちらの写真に写っている場所は、台湾の最も南にある、「墾丁」（クンティン）です。<br>ダイバーや、サーファーがこの美しい海を求めて、台湾中から集まるほどです。
+  </p>
+</div>
+
+<h3 class="pt-5 text-center">台湾 カルチャー</h3>
+<img class="pt-3 mx-auto d-block" src="{% static "promotion_taiwan/image/taiwan_culture.jpg" %}">
+<div class="pt-5 text-center">
+  <p>台湾は小さな国ですが、多民族国家です。「台湾は多民族国家」と言われると、「えっ？」と思うかもしれません。<br>もともと台湾にいた原住民、1945年以前に台湾に来た本省人、1945年以降、台湾に来た外省人に分けられます。<br>また旅行に行かれる方とうは気になる「治安」ですが、日本とほぼ同じと考えて良いです。<br>ま夜市では暴飲暴食しすぎて羽目を外しすぎないよう気をつけましょう。
+  </p>
+</div>
 
 {% endblock %}
