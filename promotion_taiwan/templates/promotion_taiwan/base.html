@@ -17,13 +17,13 @@
 
     <!-- staticファイルを読み込むときは、href部分に、staticを記述したのちに、パスを記す -->
     <link rel="stylesheet" href="{% static 'promotion_taiwan/css/bootstrap.min.css' %}">
-    <!-- jsの読み込みOK -->
-    <script href"{% static 'promotion_taiwan/js/bootstrap.min.js' %}">
+    <!-- <link rel="stylesheet" href="{% static 'promotion_taiwan/css/index.css' %}"> -->
 
-    </script>
+    <!-- jsの読み込みOK -->
+    <!-- <script href"{% static 'promotion_taiwan/js/bootstrap.min.js' %}"></script> -->
+    <script src="{% static 'promotion_taiwan/js/index.js' %}"></script>
   </head>
   <body>
-
     {% block content %}
     {% endblock %}
     <!-- Optional JavaScript -->
